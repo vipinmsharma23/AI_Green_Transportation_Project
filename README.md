@@ -37,5 +37,3 @@ This repository contains the Week 1 milestone for my AICTE internship project **
 pip install osmnx networkx folium geopy matplotlib
 jupyter notebook week1_AI_Green_Transportation.ipynb
 
-Shortest route successfully calculated between user-selected locations.
-Generated and saved an interactive HTML map showing the driving route in Bengaluru.
