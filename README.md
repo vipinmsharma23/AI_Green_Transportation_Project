@@ -19,67 +19,42 @@ The project provides:
 - Bengaluru road network downloaded from OpenStreetMap
 - Users can input any valid location in Bengaluru
 - Shortest driving route calculated using NetworkX
-- Generated interactive HTML map using Folium
+- Generated interactive HTML map using Folium  
 📂 Files located inside `week1/` folder
 
-### 🟡 Week 2 — Low-Emission Routing + CO₂ Analysis *(Current Week)*
-- Added emission-weighted routing
+---
+
+### 🟡 Week 2 — Low-Emission Route Optimization & CO₂ Analysis
+- Added emission-weighted routing using real-world road type characteristics
 - Calculated & compared CO₂ emissions
-- Generated distance & emission bar charts
-- Interactive **low emission route** map added
-📂 Files will be inside `week2/` folder
+- Generated distance & emission comparison bar charts
+- Created combined dual-route map for better visualization  
+📂 Files located inside `week2/` folder
 
----
+#### 🔍 Objective
+Enhance routing with sustainability consideration by:
+- Reducing CO₂ emissions via optimized routing
+- Comparing shortest vs eco-friendly route
+- Improving environmental impact awareness
 
-## 🧠 Tech Stack
-| Tool | Purpose |
-|------|---------|
-| Python | Implementation |
-| OSMNX | Maps + routing |
-| NetworkX | Graph calculations |
-| Folium | Interactive maps |
-| Matplotlib | Graphs |
-| Geopy | Geocoding |
+#### 🚦 Features Implemented
+✔ Any Bengaluru location input  
+✔ Shortest route visualization (Blue)  
+✔ Low-emission route visualization (Green)  
+✔ Traffic & speed-based emission modeling  
+✔ Dual-route map + static comparative image  
+✔ Fully automated map and graph generation  
 
----
-## ▶️ How to Run
-```bash
-pip install osmnx networkx folium geopy matplotlib
-jupyter notebook week1_AI_Green_Transportation.ipynb
-
-## 🟡 Week 2 – Low-Emission Route Optimization & CO₂ Analysis
-
-### 🎯 Objective
-Enhance the Week-1 routing system by integrating sustainability:
-- Calculate and compare CO₂ emissions
-- Add low-emission route based on road speed & congestion factors
-- Provide visual interpretation of route eco-efficiency
-
-### 🚦 Features Implemented
-✔ Smart user input for any location in Bengaluru  
-✔ Shortest route based on distance  
-✔ Low-emission route based on:
-- Road category
-- Congestion levels
-- Vehicle efficiency  
-✔ Emission calculation using real-world logic  
-✔ Two maps for route visualization:
-- Blue = Shortest Route
-- Green = Low-Emission Route  
-✔ Comparison charts:
-- Distance vs Emission  
-✔ **Combined dual-route map** (most important visualization)
-
-### 🧠 Technical Highlights
-| Component | Tech Used |
-|----------|-----------|
+#### 🧠 Technical Highlights
+| Component | Technology |
+|----------|------------|
 | Map Data | OSMnx + OpenStreetMap |
-| Routing Model | NetworkX |
-| Map Visualization | Folium |
+| Routing Engine | NetworkX |
+| Visualization | Folium |
 | Charts | Matplotlib |
-| Emission Modeling | Speed & road-category based factors |
+| Geocoding | Geopy |
 
-### 📂 Week-2 Project Structure
+#### 📂 Week-2 Folder Structure
 week2/
 ├─ week2_AI_Green_Transportation.ipynb
 ├─ week2_shortest_route_map.png
@@ -88,18 +63,28 @@ week2/
 ├─ week2_emission_comparison.png
 └─ week2_combined_route_image.png
 
-
-### 📌 How to Run
-pip install osmnx networkx folium matplotlib geopy scikit-learn
-jupyter notebook week2_AI_Green_Transportation.ipynb
-
-
-### 📊 Output Summary
-- Low-emission route emits **less CO₂** compared to shortest route  
-- Visual improvement in sustainability showcased  
-- Interactive & static maps demonstrate real-world route differences
+#### 📊 Output Summary
+- Shows measurable emission reduction using alternate routes
+- Interactive maps help visualize transport sustainability
+- Supports Smart & Green Mobility objectives (UN SDG-11)
 
 ---
 
-🔹 **Week-2 completed successfully** with sustainability-based optimization integrated into the project.
-🔹 All deliverables uploaded to the `week2/` folder in this repository.
+## ▶️ How to Run Project
+```bash
+pip install osmnx networkx folium geopy matplotlib scikit-learn
+jupyter notebook
+
+Open the notebook from respective week folder & run all cells.
+
+🌱 Status
+
+🔹 Week-1 Completed
+🔹 Week-2 Completed
+◻ Week-3: Final Project Report + PPT (Upcoming)
+
+👨‍💻 Author
+
+Vipin Sharma
+AICTE Internship — 2025
+
